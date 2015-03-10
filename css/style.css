@@ -1,0 +1,50 @@
+/* 	style.css */
+
+/*Global*/
+#tt-subscribe a { text-decoration: none!important; border: none!important; }
+.tt-susbscribe-hide { display: none!important; }
+.tt-susbscribe-show, .tt-susbscribe-current {display:block!important;}
+
+/*Main Container*/
+div#tt-subscribe { width: 280px; height: auto; margin: 0px auto; padding: 0 0 10px 10px; }
+
+/*Header*/
+#tt-subscribe-header { color: #fff; background: #2ea2cc; border-top-left-radius: 10px;
+	border-top-right-radius: 10px; }
+div#tt-subscribe h1 { font-size: 16px; font-weight: bold; text-transform: uppercase;
+	padding: 10px 10px 5px 10px; text-align: left;
+	line-height: 16px; /* fix on content area */
+	margin: 0; /* fix on content area */
+	color: #fff; /* fix on content area */
+}
+div#tt-subscribe h1 #h1up { font-size: 16px; font-weight: normal; }
+
+/*Icons*/
+#tt-subscribe-icons { width: 280px; margin: 0; padding: 0; text-align: center;} 
+.tt-susbscribe-iconselect { color: #ffffff; width: 20px; height: 20px; display: inline-block; }
+.tt-susbscribe-active { color: #91DCF7; }
+.tt-susbscribe-iconselect:hover { color: #005979; }
+.tt-susbscribe-active:hover {  color: #005979}
+.tt-susbscribe-iconselect div { top: 0 }
+
+
+/*Area*/
+#tt-subscribe-area { background: none; color: #333; border-bottom: 1px solid #2EA2CC;}
+.tt-susbscribe-areaselect { margin: 5px; width: 260px;
+	height: 80px; text-align:center; }
+.tt-susbscribe-areaselect iframe { margin:0!important; padding:0!important; }
+.tt-susbscribe-areaselect a { font-size: 12px; padding: 0; margin: 0 auto; display: block;
+	border-bottom: none;  }
+
+/*Instagram Codes*/
+.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-v-24 { width: 137px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2 / 1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+.ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }
